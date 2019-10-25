@@ -7,7 +7,8 @@ modified from chengengyue
 //% color="#228B22" weight=25 icon="\uf0b2"
 namespace CrocoKit_Sensor {
 
-    const COLOR_ADD = 0X30;
+    //const COLOR_ADD = 0X30;
+    let COLOR_ADD: number;
     const COLOR_REG = 0x00;
     const COLOR_R = 0X10;
     const COLOR_G = 0X0D;
@@ -104,7 +105,11 @@ namespace CrocoKit_Sensor {
         }
     }
 
-
+     export function Init(Addr: number) {
+        //if (Addr == 0) i2cAddr = AutoAddr()
+        //else i2cAddr = Addr
+        COLOR_ADD = Addr;
+    }
     //% blockId=CrocoKit_Sensor_Light block="Light|pin %pin"
     //% weight=100
     //% blockGap=20
