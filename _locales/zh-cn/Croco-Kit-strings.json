@@ -65,6 +65,7 @@
     "CrocoKit_Input.enButton.Realse|block": "松开",
 
     "CrocoKit_Sensor.IR|block": "红外传感器|引脚 %pin|返回 %value",
+    "CrocoKit_Sensor.Init|block": "初始|地址 %Add ",
     "CrocoKit_Sensor.Sound|block": "声音传感器|引脚 %pin",
     "CrocoKit_Sensor.Light|block": "光敏传感器|引脚 %pin",
     "CrocoKit_Sensor.Vibration|block": "震动传感器|引脚 %pin|摇动时",
