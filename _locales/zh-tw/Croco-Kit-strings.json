@@ -66,6 +66,7 @@
 
 
     "CrocoKit_Sensor.IR|block": "紅外傳感器|引腳 %pin|返回 %value",
+    "CrocoKit_Sensor.Init|block": "初始|地址 %Add ",
     "CrocoKit_Sensor.Sound|block": "聲音傳感器|引腳 %pin ",
     "CrocoKit_Sensor.Light|block": "光敏傳感器|引腳 %pin ",
     "CrocoKit_Sensor.Vibration|block": "震動傳感器|引腳 %pin|震動時 ",
