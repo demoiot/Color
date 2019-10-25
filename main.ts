@@ -9,7 +9,7 @@ namespace CrocoKit_Sensor {
 
     //let COLOR_ADD: number;
     //const COLOR_ADD = 0X53;
-    const COLOR_ADD = 0x39;
+    const COLOR_ADD = 0x25;
     const COLOR_REG = 0x00;
     const COLOR_R = 0X10;
     const COLOR_G = 0X0D;
