@@ -105,17 +105,16 @@ namespace CrocoKit_Sensor {
         }
     }
 
-
-    export function Init(Addr: number) {
-        //if (Addr == 0) i2cAddr = AutoAddr()
-        //else i2cAddr = Addr
-        COLOR_ADD = Addr
-    }
     //% blockId=CrocoKit_Sensor_Light block="Light|pin %pin"
     //% weight=100
     //% blockGap=20
     //% color="#228B22"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=5 
+    export function Init(Addr: number) {
+        //if (Addr == 0) i2cAddr = AutoAddr()
+        //else i2cAddr = Addr
+        COLOR_ADD = Addr
+    }
     export function Light(pin: AnalogPin): number {
         let value: number;
         value = pins.analogReadPin(pin);
